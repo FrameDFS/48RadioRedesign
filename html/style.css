@@ -1,0 +1,200 @@
+@font-face {
+    font-family: ehs;
+    src: url('ElectronicHighwaySign.woff2') format('woff2'), url('ElectronicHighwaySign.woff') format('woff'), url('ElectronicHighwaySign.ttf') format('truetype'), url('ElectronicHighwaySign.svg#ElectronicHighwaySign') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    font-family: ehs !important;
+}
+
+* {
+    text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#radio48 {
+    width: 289px;
+    height: 850px;
+    position: absolute;
+    top: 12%;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#radio48skin {
+    background: url('radio.png') no-repeat;
+    background-size: 76% 76%;
+    height: 100%;
+}
+
+#radio48Text {
+    border: 1px solid transparent;
+    color: rgb(247, 247, 247);
+    font-size: 12px;
+    height: 18%;
+    width: 50%;
+    top: 32%;
+    left: 12.5%;
+    position: absolute;
+    font-family: ehs !important;
+}
+
+#radio48Info {
+    border: 1px solid transparent;
+    height: 1.5%;
+    width: 50%;
+    top: 50.5%;
+    left: 12.5%;
+    position: absolute;
+    font-family: ehs !important;
+}
+
+#freq-info,
+#msg-ne {
+    left: 20.5%;
+}
+
+.red {
+    color: red;
+}
+
+.btn {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+    color: transparent;
+    background-color: transparent;
+    border: 0;
+}
+
+.btn:active {
+    color: transparent;
+    background: rgba(255, 255, 255, 0);
+    border: 0;
+}
+
+.btn[type="button"] {
+    outline: none;
+}
+
+.btn[type="button"]::-moz-focus-inner {
+    border: 0;
+}
+
+.btn:focus {
+    outline: 0 !important;
+}
+
+#bt-b1 {
+    top: 48.5%;
+    left: 47.5%;
+    height: 1%;
+    width: 1%;
+}
+
+#bt-f1 {
+    top: 45.5%;
+    left: 24.5%;
+    height: 1%;
+    width: 1%;
+}
+
+#bt-top {
+    top: 44.2%;
+    left: 33.3%;
+    height: 2.9%;
+    width: 9.65%;
+}
+
+#bt-ok {
+    top: 45.5%;
+    left: 47.5%;
+    height: 1%;
+    width: 1%;
+}
+
+#bt-bot {
+    top: 47.5%;
+    left: 33.3%;
+    height: 2.9%;
+    width: 9.65%;
+}
+
+#bt-set {
+    top: 48.5%;
+    left: 24.5%;
+    height: 1%;
+    width: 1%;
+}
+
+#bt-1 {
+    top: 53%;
+    left: 15%;
+    height: 2.6%;
+    width: 14.5%;
+}
+
+#bt-2 {
+    top: 53%;
+    left: 30.6%;
+    height: 2.6%;
+    width: 14.5%;
+}
+
+#bt-3 {
+    top: 53%;
+    left: 46%;
+    height: 2.6%;
+    width: 14.5%;
+}
+
+#bt-4 {
+    top: 56%;
+    left: 15%;
+    height: 2.6%;
+    width: 14.5%;
+}
+
+#bt-5 {
+    top: 56%;
+    left: 30.6%;
+    height: 2.6%;
+    width: 14.5%;
+}
+
+#bt-6 {
+    top: 56%;
+    left: 46%;
+    height: 2.6%;
+    width: 14.5%;
+}
+
+#bt-7 {
+    top: 59%;
+    left: 15%;
+    height: 2.6%;
+    width: 14.5%;
+}
+
+#bt-8 {
+    top: 59%;
+    left: 30.6%;
+    height: 2.6%;
+    width: 14.5%;
+}
+
+#bt-9 {
+    top: 59%;
+    left: 46%;
+    height: 2.6%;
+    width: 14.5%;
+}
+
+#bt-0 {
+    top: 62%;
+    left: 30.6%;
+    height: 2.6%;
+    width: 14.5%;
+}
